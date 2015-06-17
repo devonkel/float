@@ -1,16 +1,25 @@
 main {
-	width: 500px;
+	width: 506px;
 	margin: auto;
 	background: gray;
+	overflow: auto;
 }
 
 nav {
 	/* uncomment */
-	 border: 3px solid black; 
-	width: 200px;
+	border: 3px solid black; 
+	width: 100px;
 	float: right;
 }
 
-p {
+nav p {
 	margin: 0; /* zero out the default margin */
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 10px;
+	float: left;
+	width: 380px;
 }
